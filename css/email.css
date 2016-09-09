@@ -1,0 +1,180 @@
+	body {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;	
+	}
+		
+	.contact {
+		margin: 2px; 
+		float: left; 
+		font-size: 11px; 
+		font-family: 'Open Sans', sans-serif;
+		height: 36px; 
+		line-height: 37px; 
+		background: #5E90AF; 
+		text-align: center; 
+		color: #fff; 
+		font-weight: bold;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 2px;
+		cursor: pointer;
+	}
+		
+	.contact:hover {
+		background: red;
+	}
+		
+	.contact:hover:before {
+		content: attr(data-hover);
+	}
+		
+	#addContact {
+		background: #ede3dd none repeat scroll 0 0;
+		color: #fff;
+		cursor: pointer;
+		float: right;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 48px;
+		font-weight: bold;
+		height: 36px;
+		line-height: 38px;
+		margin: 2px;
+		position: absolute;
+		right: 36px;
+		text-align: center;
+		width: 35px;
+	}
+
+	#addContact:hover {
+		background: #F2EBE6;
+	}
+		
+	.container {
+		margin: 0 auto; 
+		width: 373px; 
+		position: absolute; 
+		top: 0px; 
+		left: 0px; 
+		right: 0px; 
+		margin: auto; 
+		border: 0px solid #000000; 
+		border-radius: 4px 4px 4px 4px; 
+		-moz-border-radius: 4px 4px 4px 4px; 
+		-webkit-border-radius: 4px 4px 4px 4px;
+		background: #fff;
+		
+	}
+		
+	.profile {
+		height: 100%;
+	}
+	
+	.contactContainer {
+		display: inline-block; 	
+		padding: 5px; 
+		font-size: 15px; 
+		color: #C9C2BC; 
+		width: 300px; 
+		border: 2px solid #E5D4C2; 
+		border-radius: 4px 4px 4px 4px; 
+		-moz-border-radius: 4px 4px 4px 4px; 
+		-webkit-border-radius: 4px 4px 4px 4px; 
+		min-height: 40px;
+		background: #fff;
+	}
+	
+	h1 {
+		color: #a89e94; 
+		font-size: 20px; 	
+		line-height: 40px;
+	}
+	
+	.footer {
+		height: 90px; 
+		background: #F8F3F0; 
+		
+	}
+
+	#message {
+		min-height: 107px; 
+		padding-top: 20px; 
+		font-size: 15px; 
+		padding-left: 15px; 	
+		color: #C9C2BC;
+		font-family: 'Open Sans', sans-serif; 
+		width: 290px; 
+		height: 48px; 
+		border: 2px solid #E5D4C2; 
+		border-radius: 4px 4px 4px 4px; 
+		-moz-border-radius: 4px 4px 4px 4px; 
+		-webkit-border-radius: 4px 4px 4px 4px; 
+		background: #fff;
+	}
+	
+	#subject {
+		font-size: 15px; 
+		padding-left: 15px; 
+		width: 290px; 
+		height: 48px; 
+		border: 2px solid #E5D4C2; 
+		border-radius: 4px 4px 4px 4px; 
+		-moz-border-radius: 4px 4px 4px 4px; 
+		-webkit-border-radius: 4px 4px 4px 4px;
+		color: #C9C2BC;
+		font-family: 'Open Sans', sans-serif; 
+ 
+	}
+	
+	#header {
+		padding: 30px;
+	}
+	
+	#wrapper {
+		overflow: auto;
+		display: inline-block;
+	}
+	
+	#checkmarkWrapper {
+		width: 22px; 
+		height: 22px; 
+		background: #fff; 
+		border: 1px solid #EBE2DA; 
+		text-align: center; 
+		cursor: pointer;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	#send {
+		float: right; 
+		margin-top: -40px; 
+		margin-right: 30px; 
+		cursor: pointer;
+	}
+	
+	#checkmark{
+		height: 30px; 
+		padding-left: 40px; 
+		padding-top: 30px; 
+		font-family: 'Open Sans', sans-serif;
+		color: #8A7A6A;
+	}
+	
+	h1 {
+		color: #a89e94; 
+		font-size: 15px; 
+		line-height: 10px; 
+		font-weight: normal;
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	#saveCopyLabel {
+		left: 30px;
+		margin-top: 7px;
+	}
+
+	[contenteditable] {
+	    -webkit-user-select: text;
+	    user-select: text;
+`	}

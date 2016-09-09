@@ -1,0 +1,110 @@
+	.menuOption:hover {
+		border-left: 3px solid #4daf7b;
+		background-color: #f8f3f0 !important;
+		padding-left: 17px !important;
+	
+	}
+		
+	.container {
+		margin: 0 auto; 
+		width: 283px; 
+		height: 350px; 
+		position: absolute; 
+		top: 0px; 
+		bottom: 0px; 
+		left: 0px; 
+		right: 0px; 
+		margin: auto; 
+		border: 0px solid #000000; 
+		border-radius: 4px 4px 4px 4px; 
+		-moz-border-radius: 4px 4px 4px 4px; 
+		-webkit-border-radius: 4px 4px 4px 4px; 
+		overflow: hidden;
+	}
+	
+	#header {
+		height: 125px; 
+		background: #B1A599; 
+		border-bottom: 2px solid #a59789;
+	}
+
+	#avatar {
+		width: 100px; 
+		float: left; 
+		height: 100%; 
+		padding-left: 10px;
+	}
+		
+	#outerRing {
+		border-radius: 50%; 
+		width: 90px; 
+		height: 90px; 
+		border: 2px solid #92867A; 
+		margin-left: 3px; 
+		margin-top: 15px;
+	}
+	
+	#mask {
+		border: 1px solid black; 
+		border-radius: 50%; 
+		height: 70px; 
+		left: 9px; 
+		overflow: hidden; 
+		position: relative; 
+		width: 70px; 
+		top: 9px; 
+	}
+		
+	#mask img {
+		position: absolute; 
+		top: 0px; 
+		bottom: 0px; 
+		left: 0px; 
+		right: 0px; 
+		margin: auto;	
+	}
+	
+	.userInfo {
+		float: right; 
+		margin-top: 2px; 
+		width: 150px; 
+		padding: 10px;
+	}
+	
+	.footerWrapper {
+		font-family: Arial; 
+		color: #8E8071; 
+		font-size: 15px;
+	}
+	
+	h2 {
+		color: #fff;
+		font-family: "Open Sans",sans-serif;
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 21px;
+		text-transform: uppercase;
+		
+	}
+	
+	h1 {
+		font-family: "Open Sans",sans-serif;
+		font-size: 13px;
+		font-weight: normal;
+	
+	}
+	
+	.menuOption {
+		height: 50px; 
+		line-height: 50px; 
+		padding-left: 20px; 
+		cursor: pointer;
+		background-repeat: no-repeat; 
+		background-position: right 10px top 17px;
+	}
+	
+	.profile {
+		height: 100%;
+	}
+	
+	
